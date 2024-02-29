@@ -79,7 +79,7 @@ Submission dat : 28 February 2023
 
                 courses.forEach(course => {
                     const li = document.createElement('li');
-                    li.textContent = `${course.name} - ${course.unit}`;
+                    li.textContent = `${course.name} (Unit: ${course.unit})`;
                     courseList.appendChild(li);
                 });
             } catch (error) {
